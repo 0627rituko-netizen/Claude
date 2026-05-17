@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude Bot Invite</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #000000, #0a0a1f);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(15,15,40,0.9);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 25px rgba(138,43,226,0.6);
+            width: 350px;
+        }
+
+        .logo {
+            width: 180px;
+            height: 180px;
+            object-fit: contain;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #b388ff;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #cccccc;
+            margin-bottom: 25px;
+        }
+
+        .invite-btn {
+            display: inline-block;
+            padding: 14px 35px;
+            background: linear-gradient(90deg, #00c6ff, #a64dff);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .invite-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #a64dff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="claude-badge.png" alt="Claude Logo" class="logo">
+
+        <h1>Claude</h1>
+        <p>あなたのDiscordサーバーに導入</p>
+
+        <a class="invite-btn"
+           href="https://discord.com/oauth2/authorize?client_id=1505460194740539473&permissions=8&integration_type=0&scope=bot"
+           target="_blank">
+           Botを導入
+        </a>
+    </div>
+
+</body>
+</html>
